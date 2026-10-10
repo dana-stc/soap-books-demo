@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:b="http://example.com/books">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <b:getBookRequest>
+      <b:id>1</b:id>
+    </b:getBookRequest>
+  </soapenv:Body>
+</soapenv:Envelope>

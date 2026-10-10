@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:b="http://example.com/books">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <b:addBookRequest>
+      <b:title>Neuromancer</b:title>
+      <b:author>William Gibson</b:author>
+      <b:year>1984</b:year>
+    </b:addBookRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
